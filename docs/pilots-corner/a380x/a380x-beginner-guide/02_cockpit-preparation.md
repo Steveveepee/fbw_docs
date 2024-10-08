@@ -2,7 +2,7 @@
 
 # Cockpit Preparation
 
-This guide will help you with preparing and powering up the Airbus A380.  
+This guide will help you with preparing and powering up the A380x.
 It includes images to help you understand the locations of all buttons and switches.
 
 !!! warning "Disclaimer"
@@ -36,13 +36,9 @@ This guide assumes that your aircraft is in a cold and dark state at a gate.
     (Of course, this is not an issue in the sim, but in real life it is crucial to check this!)
 
 `ENGINE MASTER SWITCHES (1, 2, 3, 4) .................................. OFF`<br/>
-`PARKING BRAKE (OR CHOCKS).............................................. ON`<br/>
-`SPEED BRAKE LEVER .............................................. RETRACTED`<br/>
-`FLAPS LEVER .................................................... RETRACTED`<br/>
-`WEATHER RADAR ........................................................ OFF`<br/>
 `ENGINE MODE SELECTOR ................................................ NORM`<br/>
 `THRUST LEVERS ....................................................... IDLE`<br/>
-`GEAR LEVER .......................................................... DOWN`<br/>
+`LANDING GEAR LEVER .................................................. DOWN`<br/>
 `WIPERS (BOTH) ........................................................ OFF`<br/>
 
 ??? tip "How and Where"
@@ -67,10 +63,11 @@ After these pre-checks, we can start the aircraft starting with the initial powe
     aircraft systems when the engines are not running. The aircraft needs at least two external power units to power the 
     whole electrical network.
 
-`ENGINES MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`<br/>
-`BATTERIES (BAT 1, BAT 2) .............................................. ON`<br/>
-`EXTERNAL POWER (2, 3, 1, 4) ........................................... ON`<br/>
-`COCKPIT LIGHTING ............................................. AS REQUIRED`<br/>
+`ALL BATTERIES ......................................................... CHECK`<br/>
+`	(All BATs OFF - Check battery level on upper OVHD - All BATs ON)`<br/>
+`EXTERNAL POWER (2, 3, 1, 4) .............................................. ON`<br/>
+`ALL IR MODE selector ........................................... OFF then NAV`<br/>
+`COCKPIT LIGHTING ................................................ AS REQUIRED`<br/>
 
 ??? tip "How and Where?"
 
@@ -90,11 +87,8 @@ After these pre-checks, we can start the aircraft starting with the initial powe
 `STANDBY RADIO NAVIGATION ............................................. OFF`<br/>
 `COMMUNICATION FREQUENCIES ........................................... TUNE`<br/>
 `INTERPHONE RECEPTION ...................................... RELEASE/ADJUST`<br/>
-`APU FIRE ............................................ CHECK IN and GUARDED`<br/>
-`APU AGENT ............................................................ OFF`<br/>
-`ENGINE 1/2/3/4 FIRE.................................. CHECK IN and GUARDED`<br/>
-`ENGINE 1/2/3/4 AGENT 1 and 2 ......................................... OFF`<br/>
-`FIRE TEST .......................................................... PRESS`<br/>
+`APU and ENG FIRE TEST ............................................ PERFORM`<br/>
+
 ??? note "Fire Test Result"
     Verify that the fire detection systems and extinguishing systems are functional by checking the following items:
 
@@ -105,7 +99,10 @@ After these pre-checks, we can start the aircraft starting with the initial powe
     illuminates.
 
 `APU MASTER SWITCH ..................................................... ON`<br/>
+(Wait 5 seconds for the APU door to open)<br/>
 `APU START ............................................................. ON`<br/>
+*When the APU is AVAILABLE:<br/>
+`AIR COND panel ....................................................... SET`<br/>
 `EXTERNAL POWER .................................................... AS REQ`<br/>
 ??? note "External Power"
     It is recommended to keep the external power units to ON to reduce the APU load in hot weather conditions.
@@ -114,6 +111,14 @@ After these pre-checks, we can start the aircraft starting with the initial powe
 
 [//]: # (TODO)
     <p style="color:yellow; font-size:18px;">TODO: images or link to flight-deck</p>
+
+## Before Walkaround Checks
+
+`ECAM OXY PRESS / HYD QTY / ENGINE OIL QTY .......................... CHECK`<br/>
+  (Power the FADECs on the upper OVHD to check the oil qty)<br/>
+`FLAPS ..................................................... CHECK POSITION`<br/>
+`SPEED BRAKE lever ............................. CHECK RETRACTED / DISARMED`<br/>
+
 
 ## Cockpit Preparation Flow
 
